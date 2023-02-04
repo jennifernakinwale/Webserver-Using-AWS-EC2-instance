@@ -1,0 +1,14 @@
+ <html>
+            <body>
+                    <h1> You are logged in: </h1>
+
+                    <p> First Name:{{ result[0] }} </p>
+                    <p> Last Name:{{result[1]}} </p>
+                    <p> Email:{{result[2]}} </p>
+                    <p> Username: {{result[3]}}</p>
+
+             <a href="{{url_for('logout')}}"> Click  here to logout </a>
+
+            </body>
+
+    </html>
